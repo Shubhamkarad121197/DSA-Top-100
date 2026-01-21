@@ -17,4 +17,10 @@ function longestSubString(s){
     return maxLen;
 }
 
-console.log(longestSubString(s))
+console.log(longestSubString(s));
+
+// ⏱ Complexity
+
+// Time: O(n)
+
+// Space: O(n)
