@@ -19,7 +19,7 @@ function isAnagram(s1,s2){
             map.set(char,map.get(char)-1)
         }
 
-        if(map.get(char)==0){
+        if(map.(char)==0){
             map.delete(char)
         }
     }
