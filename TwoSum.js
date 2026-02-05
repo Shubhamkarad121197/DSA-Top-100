@@ -11,7 +11,7 @@ function bruteForceTwoSum(arr,target){
     return [-1,-1]
 }
 
-console.log(bruteForceTwoSum(arr,target));
+console.log(bruteForceTwoSum(arr,target)); //[0,1]
 
 
 function optimalTwoSum(arr,target){
@@ -25,7 +25,7 @@ function optimalTwoSum(arr,target){
             map.set(arr[i],i)
         }
     }
-    return [-1,-1]
+    return [-1,-1];
 }
 
 console.log(optimalTwoSum(arr,target))
